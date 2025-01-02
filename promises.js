@@ -4,6 +4,7 @@ function setTimeoutPromisified(ms) {
 }
 function callback() {
     console.log("3 seconds have passed");
+
 }
 
 setTimeoutPromisified(3000).then(callback)
