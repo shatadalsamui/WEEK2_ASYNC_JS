@@ -1,8 +1,8 @@
 const fs = require('fs');
 
 function readFile(file) {
-    return new Promise(function(resolve, reject) {
-        fs.readFile(file, 'utf-8', function(err, data) {
+    return new Promise(function (resolve, reject) {
+        fs.readFile(file, 'utf-8', function (err, data) {
             if (err) {
                 reject('Error reading file: ' + err.message);
             } else {
@@ -14,6 +14,6 @@ function readFile(file) {
 
 // Usage example:
 readFile('c.txt')
-    .then(function(data) {
+    .then(function (data) {
         console.log('File content:', data);
     });

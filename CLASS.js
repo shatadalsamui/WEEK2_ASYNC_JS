@@ -16,12 +16,12 @@ class Rectangle {
 
 }
 
-const rect = new Rectangle(2, 4,'red')
+const rect = new Rectangle(2, 4, 'red')
 const area = rect.area();
 console.log(area)
 rect.paint();
 
-const rect2 = new Rectangle(3,4,"black");
+const rect2 = new Rectangle(3, 4, "black");
 const area2 = rect2.area();
 rect2.paint();
 console.log(area2)
