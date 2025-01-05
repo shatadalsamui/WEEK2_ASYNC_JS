@@ -1,10 +1,10 @@
-function random (){
+function random() {
 
 }
 
 let p = new Promise(random);
 
-function callback(){
+function callback() {
     console.log("promise Succeded");
 }
 
