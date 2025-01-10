@@ -1,3 +1,4 @@
-const fs = require("fs") ; // fs is external library which lets u read external files
-const contents  = fs.readFileSync("a.txt","utf-8"); //utf-8 is type
-console.log(contents);
+const fs = require("fs") ; // Import Node.js file system module
+const contents  = fs.readFileSync("a.txt","utf-8"); // Synchronously read a.txt as UTF-8 text
+console.log(contents); // Print file contents
+
